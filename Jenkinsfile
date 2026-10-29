@@ -17,19 +17,36 @@
 // }
 
 
-pipeline {
-    agent any
+// pipeline {
+//     agent any
 
-    stages {
-        stage('First Stage') {
-            steps {
-                echo 'Jenkins is running!'
+//     stages {
+//         stage('First Stage') {
+//             steps {
+//                 echo 'Jenkins is running!'
+//             }
+//         }
+
+//         stage('Second Stage') {
+//             steps {
+//                 sh 'date'
+//             }
+//         }
+//     }
+// }
+
+
+pipeline{
+    stage any
+    stages{
+        stage("ustadd chall rha h ?"){
+            steps{
+                echo 'yess dadddyy'
             }
         }
-
-        stage('Second Stage') {
-            steps {
-                sh 'date'
+        stage("second shot"){
+            steps{
+                sh 'fuck mee daddyy'
             }
         }
     }
