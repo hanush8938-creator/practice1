@@ -1,11 +1,17 @@
 pipeline{
-    any agent
+    agent any
     stages{
-        stage("ustadd chl rha h"){
-            echo "yessss daddy"
+        stage{
+              steps("ustadd chl ra h"){
+            echo 'yess daddy'
+            }
         }
-        stage("second round"){
-            sh'fuck me'
+        stage{
+            steps("second shot"){
+                sh 'fuck meee bbyyy'
+            }
         }
-    }
+
+    
+}
 }
