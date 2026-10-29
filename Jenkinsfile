@@ -46,7 +46,7 @@ pipeline{
         }
         stage("second shot"){
             steps{
-                sh 'fuck mee daddyy'
+                sh 'date'
             }
         }
     }
