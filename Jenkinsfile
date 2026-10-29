@@ -15,3 +15,22 @@
     
 // }
 // }
+
+
+pipeline {
+    agent any
+
+    stages {
+        stage('First Stage') {
+            steps {
+                echo 'Jenkins is running!'
+            }
+        }
+
+        stage('Second Stage') {
+            steps {
+                sh 'date'
+            }
+        }
+    }
+}
