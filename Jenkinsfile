@@ -37,7 +37,7 @@
 
 
 pipeline{
-    stage any
+    agent any
     stages{
         stage("ustadd chall rha h ?"){
             steps{
